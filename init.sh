@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(elite-models.duckdns.org www.elite-models.duckdns.org)
+domains=(em-api.duckdns.org www.em-api.duckdns.org)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="" # Adding a valid address is strongly recommended
